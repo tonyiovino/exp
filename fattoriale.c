@@ -9,8 +9,6 @@ int main()
   printf("Inserisci un numero: ");
   scanf("%d", &n);
 
-  i = n;
-
   for (i = 1; i <= n; i += 1) {
     fattoriale *= i;
     printf("%d! = %d\n", i, fattoriale);
