@@ -20,10 +20,10 @@ int main()
   e = 1.;
 
   for (count = 1; differenza > 0.001; count++){
-    differenza = e - first_e;
     first_e = e;
     fattoriale *= count;
     e = e + 1./(double)fattoriale;
+    differenza = e - first_e;
   }
   printf("Seconda volta e: %f\n", e);
 
