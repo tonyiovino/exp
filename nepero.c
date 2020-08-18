@@ -6,7 +6,7 @@ int main()
   int num = 10;
   int count;
 
-  double e = 0;
+  double e = 1;
   double first_e;
   double differenza = 1;
 
