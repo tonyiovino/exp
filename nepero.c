@@ -25,7 +25,7 @@ int main()
     e = e + 1./(double)fattoriale;
     differenza = e - first_e;
   }
-  printf("Seconda volta e: %f\n", e);
+  printf("Seconda volta e: %f\nI termini utilizzati sono %d\n", e, count);
 
   return 0;
 }
